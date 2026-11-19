@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "QFP2PGA") (type "KiCad") (uri "${KIPRJMOD}/QFP2PGA.pretty") (options "") (descr ""))
+)

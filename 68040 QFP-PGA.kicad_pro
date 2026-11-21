@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.285098,
-          "width": 0.834484
+          "height": 3.5,
+          "width": 4.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -147,7 +147,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1524,
+        "min_clearance": 0.15,
         "min_connection": 0.1,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -215,10 +215,15 @@
       ],
       "track_widths": [
         0.0,
+        0.0,
         0.127,
+        0.15,
         0.2,
         0.3,
-        0.5
+        0.5,
+        1.5,
+        2.0,
+        2.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -261,7 +266,7 @@
         },
         {
           "diameter": 0.6,
-          "drill": 0.45
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -721,7 +726,7 @@
         "uuid": "5e2750f7-e1ad-4b9a-870c-631f4438b11b"
       }
     ],
-    "used_designators": "C7-9,U3",
+    "used_designators": "#PWR3,#PWR6,#PWR8,#PWR10,C7-9,U3-4",
     "variants": []
   },
   "sheets": [

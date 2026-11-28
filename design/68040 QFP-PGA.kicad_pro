@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|163345969|88870939|40def71d-b962-48ec-b230-8df1d1e28f35|449f0817-f0ce-4c8e-aafb-045111638ee7",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -126,7 +131,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -568,7 +573,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../production/bottom-board/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

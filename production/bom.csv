@@ -1,7 +1,0 @@
-﻿Designator,Footprint,Quantity,Value,LCSC Part #
-"C1, C2, C3, C4, C5, C6",0805,6,22uF,C45783
-C7,CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder,1,100uf 10V Tant,
-J1,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,1,FAN,
-R1,1206,1,10,C17903
-U1,Mot_QFP184_HandSolder,1,MC68040FE,
-U2,PGA-179_1.1H-1.6R,1,MC68040RC,
